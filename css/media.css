@@ -1,0 +1,190 @@
+ /*Extra small devices (portrait phones, less than 576px)*/
+
+ @media (max-width: 575.98px) {
+    .menu .nav-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* float: left; */
+    float: right;
+    /* margin: auto; */
+    margin-left: auto;
+}
+.menu .navbar-toggler{
+    border: 2px solid #ffffff;
+}
+.text-two h6 {
+    font-size: 13pt;
+    color: #ffffff;
+    border-right: 2px solid #ffffff;
+    padding-right: 20px;
+}
+.text-right {
+    text-align: right!important;
+    height: 30px;
+    width: 150px;
+}
+.video-box .box {
+    border: 2px solid #339fae;
+    padding: 35px;
+    height: 200px;
+    width: 350px;
+   text-align: center;
+    justify-content: center;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+.zero {
+    padding-left: 0!important;
+    border: 2px solid #ffffff;
+    width: 250px;
+}
+.years30txt p {
+    color: white;
+    text-align: left!important;
+    border-right: 1px solid white;
+    margin: 0;
+    padding: 4px 20px;
+    padding-left: 0;
+}
+.years30logo {
+    padding-left: 0;
+    height: 201px;
+    width: 200px;
+    padding-top: 20px;
+}
+.right {
+    float: left;
+}
+ }
+
+ /*Small devices (landscape phones, 576px and up)*/
+
+ @media (min-width: 576px) and (max-width: 767.98px) {
+    .menu .nav-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* float: left; */
+    float: right;
+    /* margin: auto; */
+    margin-left: auto;
+}
+.menu .navbar-toggler{
+    border: 2px solid #ffffff;
+}
+.text-two h6 {
+    font-size: 13pt;
+    color: #ffffff;
+    border-right: 2px solid #ffffff;
+    padding-right: 20px;
+}.menu .nav-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* float: left; */
+    float: right;
+    /* margin: auto; */
+    margin-left: auto;
+}
+.menu .navbar-toggler{
+    border: 2px solid #ffffff;
+}
+.text-two h6 {
+    font-size: 13pt;
+    color: #ffffff;
+    border-right: 2px solid #ffffff;
+    padding-right: 20px;
+}
+     
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+
+ @media (min-width: 768px) and (max-width: 991.98px) {
+    .video-box .box {
+    border: 2px solid #339fae;
+    padding: 25px;
+}
+.video-box .box h3 {
+    font-size: 20pt;
+    color: #009fae;
+    text-transform: uppercase;
+}
+                
+    .video-box .box h4 {
+    color: #339fae;
+    font-size: 19px;
+    text-transform: uppercase;
+}
+.icons_social{
+        height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: none;
+    float: left;
+    background: #ffffff00;
+    margin: 0 auto;
+
+}
+.years30txt {
+    margin-top: 15px;
+}
+.years30logo img {
+    float: right;
+    height: 100%;
+    margin-top: 15px;
+}
+.menu .nav-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* float: left; */
+    float: right;
+    /* margin: auto; */
+    margin-left: auto;
+}
+.menu .navbar-toggler{
+    border: 2px solid #ffffff;
+}
+.text-two h6 {
+    font-size: 13pt;
+    color: #ffffff;
+    border-right: 2px solid #ffffff;
+    padding-right: 20px;
+}
+ }
+
+ /*Large devices (desktops, 992px and up)*/
+
+ @media (min-width: 992px) and (max-width: 1199.98px) {
+     .top-bar .nav-item a {
+    
+    text-transform: uppercase;
+         font-size: 14px;
+    
+}
+     .top-padding {
+    padding-right: 5px;
+    color: #44676a;
+}
+     .video-box .box h3 {
+    font-size: 25pt;
+    color: #009fae;
+    text-transform: uppercase;
+}
+.icons_social {
+    height: 35px;
+    width: 36px;
+    border-radius: 50%;
+    background-color: #325D9C;
+    float: left;
+    margin: 0px 10px;
+}
+.icons {
+    font-size: 11px;
+    padding: 11px 13px;
+    color: white;
+}
+}
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+
+ @media (min-width: 1200px) {}
